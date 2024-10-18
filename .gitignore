@@ -1,0 +1,9 @@
+node_modules
+dist
+tgsnake
+tgsnake*
+.env
+*.txt
+prisma/dev.db
+.nvmrc
+logs

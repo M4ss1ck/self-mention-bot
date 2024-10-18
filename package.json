@@ -1,0 +1,27 @@
+{
+  "name": "self-mention-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "tsc -p ./tsconfig.json && node -r dotenv/config ./dist/index.js",
+    "build": "tsc -p ./tsconfig.json",
+    "dev": "tsx --env-file=.env ./src/index.ts",
+    "watch": "tsx --watch --env-file=.env ./src/index.ts"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "M4ss1ck",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.4.5",
+    "tgsnake": "^3.3.1",
+    "winston": "^3.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}
